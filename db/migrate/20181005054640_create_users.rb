@@ -4,5 +4,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name 
       t.string :password
       t.string :balance
+    end   
   end
 end
